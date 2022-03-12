@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8" />
+        <script src="https://cmpt165.csil.sfu.ca/js/jquery-3.4.1.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+        <script src="https://static.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+        <script src="https://static.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+
+        <script src="logic.js"></script>
+
+        <link rel="shortcut icon" type="image/png" href="images/siam_headshot.png"/>
+        <meta name="description" content="Read about the life of Siam Shafiq."></head>
+        <title>Siam Shafiq's Portfolio</title>
+
+    </head> 
+    <body>
+        <div id="main">
+            
+            <div id="text_intro">
+                
+                <h1 id ="title">Siam Shafiq</h1>
+                <div id="sub-title">
+                    <p>Langara College  |</p>
+                    <p>Computer Science |</p>
+                    <p>Bug Catcher</p>
+                </div>
+            </div>
+        </div>
+
+        <div id = "main_2">
+            <div class = "about-me">
+                <h1>About Me</h1>
+                <p class ="experience-title">Hi there!</p>
+                <p class = "opener">My name is Siam, I write code. I enjoy the feeling of writing meaningful code that brings technology to life.</p>
+                
+                
+                <div class = "about-me-lists">
+                    <p class = "list-heading">Languages I know:</p>
+                    
+
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Full Stack Web</li>
+                        <li>JQuery</li>
+                        <li>C#</li>
+                        <li>Shell</li>
+                    </ul>
+                    
+                    <p class = "list-heading">Relevant Courses at Langara:</p>
+                    <ul class = >
+                        <li>CPSC 1030 - Web Development I</li>
+                        <li>CPSC 1045 - Web Programming</li>
+                        <li>CPSC 1050 - Intro to Computer Science</li>
+                        <li>CPSC 1480 - Networking</li>
+                        <li>CPSC 1150 - Program Design</li>
+                        <li>CPSC 1280 - Unix Tools and Scripting</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id ="experience-section-1">
+                <h1 id ="experience">Relevant Experience</h1>
+
+                <div class = "experience-parts">
+                    <p class ="experience-title">Part-Time Mentor at Canada Learning Code<span class="timeline">&emsp;&emsp;February 2019 - Present</span></p>
+
+                    <div class ="experience-description">
+                        <!-- <p class = "experience-role">Mentor</p> -->
+                        <p>Currently mentoring for the Ladies Learning Code workshop. Assisting in the program by answering any questions and helping with the material.
+                            Helping to understand and write code in HTML, CSS and JavaScript.
+                            </p>
+                    </div>
+                </div>
+
+                <div class = "experience-parts">
+                    <p class ="experience-title">Volunteer at Canada Learning Code <span class="timeline">&emsp;&emsp; December 2019 - December 2019</span></p>
+
+                    <div class ="experience-description">
+                        <p class = "experience-role">Mentor - Intro to Micro:bit</p>
+                        <p>Mentored four individuals at a time.
+                            Helped them understand basic computer science
+                            concepts such as functions, loops and if/else statements.</p>
+                    </div>
+                </div>
+
+                <div class = "experience-parts">
+                    <p class ="experience-title">Department of Shipping <span class="timeline">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;August 2016 - September 2016</span></p>
+
+                    <div class ="experience-description">
+                        <p class = "experience-role">Software Intern</p>
+                        <p>Completely overhauled the examination system using C#. Made system compatible with modern OS
+                            and improved speed and efficiency by 25%
+                        </p>
+                    </div>
+                </div>
+
+                <div class = "experience-parts">
+                    <p class ="experience-title">Radio Today 89.6FM <span class="timeline">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; May 2016 - August 2016</span></p>
+
+                    <div class ="experience-description">
+                        <p class = "experience-role">Creative Intern</p>
+                        <p>Introduced an LGBT friendly radio show. Boosted viewership by 25%. Designed multiple PSAs that raised awareness on relevant topics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "experience-section">
+                <h1>Personal Projects</h1>
+
+                <div class = "experience-parts">
+                    <p class ="experience-title">Discord Personal Bot <span class = "project_links">&emsp;<a href="https://github.com/SiamShafiq/Discord-Experimental-Bot">Github</a></span></p>
+
+                    <div class ="experience-description">
+                        <p class = "experience-role">Created a Discord Bot using Python, Discord API and OpenDota API</p>
+                        <p>Features of the bot:</p>
+                        <ul class = "project-description">
+                            <li>Able to track user activity to determine a user's most frequent login times</li>
+                            <li>Display a summary of user stats from the popular video game Dota 2</li>
+                            <li>Tells jokes and plays music</li>
+                        </ul>
+                    </div>
+
+                    <p class ="experience-title">Sorting Visualization <span class = "project_links">&emsp;<a href="https://github.com/SiamShafiq/Sorting-Visualization">Github</a>&emsp;<a href = "visualization_site/index.html">Demo</a></span></p>
+                    <div class ="experience-description">
+                        <p class = "experience-role">Visualize sorting algorithms using Javascript and JQuery</p>
+                        <p>Current sorting algorithms available:</p>
+                        <ul class = "project-description">
+                            <li>Bubblesort</li>
+                            <li>Selection Sort</li>
+                        </ul>
+                    </div>
+
+                    <p class ="experience-title">Weather Forecast <span class = "project_links">&emsp;<a href="https://github.com/SiamShafiq/Sorting-Visualization">Github</a>&emsp;<a href = "weather_site/home.html">Demo</a></p>
+
+                    <div class ="experience-description">
+                        <p class = "experience-role">Experimental weather forecaster using the OpenWeather API.</p>
+                        <p>The app checks your location, then displays relevant weather information such as:</p>
+                        <ul class = "project-description">
+                            <li>Country</li>
+                            <li>Location</li>
+                            <li>Temperature</li>
+                            <li>Current Weather</li>
+                            <li>Wind Speed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "contact-me">
+                <h1>Get in touch</h1>
+                <div class = "contact-me-desc">
+                    <p class = "opener">Looking for bug hunters, or just looking to grow your team? I'd love to hear from you.</p>
+                    <p></p>
+                    <a href = "mailto:siam.shafiq@gmail.com"><img src="">siam.shafiq@gmail.com</a>
+                    <a href = "https://www.facebook.com/5iam5hafiq">Facebook</a>
+                    <a href = "https://github.com/SiamShafiq">Github</a>
+
+                </div>
+                
+            </div>
+            
+        </div>
+        </div>
+        <div class="footer">
+            Made with ❤️ by <a id ="footer_link" href="https://github.com/SiamShafiq">Siam Shafiq</a>
+        </div>
+    </body>
+</html>
+
