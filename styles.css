@@ -1,3 +1,23 @@
+:root{
+    --intro:#B6D8F9;
+    --portfolio:#9BC3F2;
+    --experience:#8CB4E2;
+    --projects:#7399C4;
+    --photos:coral;
+    --contact-me:#4D76A5;
+}
+
+:root{
+    --intro:#12A159;
+    --portfolio:#29F2AC;
+    --experience:#3D7CA1;
+    --projects:#7399C4;
+    --photos:#18F2BF;
+    --contact-me:#1D9FDB;
+}
+
+
+
 body{
     margin:0;
 }
@@ -8,7 +28,7 @@ body{
     font-size: 2em;
     line-height: 1em;
     font-family: 'Darker Grotesque', sans-serif;
-    background-color:#B6D8F9;
+    background-color:var(--intro);
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 30vh;
@@ -23,7 +43,7 @@ body{
 }
 
 #text_intro{
-    text-align: center;
+    text-align: left;
     font-size: 1.6em;
     width: 100%;
     height: 100%;
@@ -39,7 +59,7 @@ body{
 }
 
 .about-me{
-    background-color: #9BC3F2;
+    background-color: var(--portfolio);
     padding: 10% 3em 6em 20%;
     line-height: 0.3em;
 }
@@ -85,7 +105,7 @@ body{
 }
 
 #experience-section-1{
-    background-color:#8CB4E2;
+    background-color:var(--experience);
     padding-left: 20%;
     padding-right: 20%;
 
@@ -95,7 +115,7 @@ body{
 }
 
 #experience-section{
-    background-color:#7399C4;
+    background-color:var(--projects);;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
@@ -164,10 +184,46 @@ a:hover{
     margin-right: 30%;
 }
 
+#photography{
+    padding: 3em 3em 6em 4em;
+    background-color: var(--photos);;
+    padding-left: 20%;
+}
+
+#photography h1{
+    margin-bottom: 10px;
+}
+
+#photo-desc{
+    line-height: .3em;
+    font-weight: 600;
+}
+
+#photo-desc .opener{
+    margin: 0;
+}
+
+.photoSettings{
+    width: 30%;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: 1px solid black;
+    transition: all .2s ease-in-out;
+}
+
+.photoSettings:hover{
+    
+    transform: scale(1.5); 
+}
+
 #contact-me{
     padding: 3em 3em 6em 4em;
-    background-color: #4D76A5;
+    background-color: var(--contact-me);
     padding-left: 20%;
+}
+
+#contact-me h1{
+    margin-bottom: 10px;
 }
 
 .contact-me-desc{
@@ -197,7 +253,7 @@ ul{
     padding-top:0.1%;
     padding-bottom: 0.1em;
     /* height: 5%; */
-    background-color: #4D7FC5;
+    background-color: #4D76A5;
     color: white;
     text-align: center;
     font-size: 1.6em;
