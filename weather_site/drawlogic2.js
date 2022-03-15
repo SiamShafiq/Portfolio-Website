@@ -20,7 +20,7 @@ function showPosition() {
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
     
     const url = "https://api.openweathermap.org/data/2.5/weather?lat="+ localStorage.getItem("geolat")+ "&lon="+ localStorage.getItem("geolong") +"&APPID=48ca062f46278186f5a0ed41287c1093"; // site that doesn’t send Access-Control-*
-    fetch(proxyurl + url)
+    fetch(url)
     .then(response => response.text())
     .then(contents => {
         // console.log(contents)

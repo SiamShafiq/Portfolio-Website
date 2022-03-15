@@ -1,13 +1,4 @@
 :root{
-    --intro:#B6D8F9;
-    --portfolio:#9BC3F2;
-    --experience:#8CB4E2;
-    --projects:#7399C4;
-    --photos:coral;
-    --contact-me:#4D76A5;
-}
-
-:root{
     --intro:#12A159;
     --portfolio:#29F2AC;
     --experience:#3D7CA1;
@@ -15,8 +6,6 @@
     --photos:#18F2BF;
     --contact-me:#1D9FDB;
 }
-
-
 
 body{
     margin:0;
