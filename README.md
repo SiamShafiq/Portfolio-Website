@@ -1,5 +1,8 @@
 # Portfolio-Website
-Siam Shafiq's Custom Portfolio Website
+
+## Overview
+Hi there, this is my personal custom portfolio. I built this using mostly HTML, CSS, and just the tiniest amount of JS for some of the animations. I tried making this as responsive as I could (to my knowledge) and I am continously pushing updates to make the experience even better. The design of the site is resume style, so it reads from top to bottom as you scroll. The site is currently hosted in the github pages link below. 
+
 ## Website Link:
 https://siamshafiq.github.io/Portfolio-Website/
 
@@ -8,7 +11,6 @@ This entire website is built on the following Technlogy Stack:
 1.  Plain HTML
 2.  Cascading Style Sheets
 3.  Javascript
-4.  JQuery
 
 ## Wireframe Designs
 The following images are the wireframes that I used to design the entire website. The different sections are as follow:
